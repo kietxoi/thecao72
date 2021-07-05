@@ -1,7 +1,7 @@
 <?php
     require_once(__DIR__."/config/config.php");
     require_once(__DIR__."/config/function.php");
-    // CHÚ THÍCH TÁC DỤNG ĐỂ CÁC SHOP YÊN TÂM SỬ DỤNG HƠN NHÉ
+    
     if(isset($_SESSION['username']) && $getUser['level'] == 'admin')
     {
         //CONFIG THÔNG SỐ
@@ -39,3 +39,4 @@
             msg_error2("Tải bản cập nhật thất bại");
         }
     }
+	//XIn chào
