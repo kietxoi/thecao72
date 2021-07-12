@@ -3,7 +3,7 @@ $CMSNT = new CMSNT;
 $config = [
     'url'       => $base_url,
     'serial'    => '28082001',
-    'version'   => '1.1.6',
+    'version'   => '1.1.8',
     'ip_server' => ''
 ];
 
