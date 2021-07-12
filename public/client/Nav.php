@@ -102,6 +102,12 @@
                         <a href="<?=BASE_URL('Withdraw');?>" style="color: <?=$CMSNT->site('theme_color');?>">Rút
                             tiền</a>
                     </li>
+                    <?php if($CMSNT->site('status_napbank') == 'ON') { ?>
+                    <li class="mb-md-3"><a href="<?=BASE_URL('Bank');?>" class="hover_item"><i
+                                class="fa fa-angle-right"></i> <strong>Nạp tiền bằng ngân
+                                hàng</strong></a>
+                    </li>
+                    <?php }?>
                     <?php if($CMSNT->site('status_chuyentien') == 'ON') { ?>
                     <li class="mb-md-3">
                         <a href="<?=BASE_URL('Transfers');?>" style="color: <?=$CMSNT->site('theme_color');?>">Chuyển
